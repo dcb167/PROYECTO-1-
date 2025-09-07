@@ -6,28 +6,29 @@ Para realizar una presentación con Pepper. Se aplicaron conceptos del Laborator
 + 192.168.0.106</br>
 Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio del terminal y a su vez, para establecer la conexión en el código de Python. De tal forma que, aplicando los conceptos del Laborario II el código resultante fue el siguiente:</br>
 
+
 		import qi
 		import argparse
-	import sys
-	import almath
-	import math
-	import motion
-	import time
-	import webbrowser
-	import os
+		import sys
+		import almath
+		import math
+		import motion
+		import time
+		import webbrowser
+		import os
 
-	session = qi.Session()
-	session.connect("tcp://192.168.0.106:9559")
-	animated_speech_service = session.service("ALAnimatedSpeech")
-	motion_service = session.service("ALMotion")
-	tablet_service=session.service("ALTabletService")
+		session = qi.Session()
+		session.connect("tcp://192.168.0.106:9559")
+		animated_speech_service = session.service("ALAnimatedSpeech")
+		motion_service = session.service("ALMotion")
+		tablet_service=session.service("ALTabletService")
 
-a = 1
-while a == 1:
+		a = 1
+		while a == 1:
 
-	tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
-        motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
-        time.sleep(1)
+				tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
+        		motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+        		time.sleep(1)
         motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
         time.sleep(2)
         motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
