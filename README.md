@@ -203,6 +203,10 @@ La visualización de como se ven los tres Chatbots para cada novedad tecnológic
 
 <strong>Figura 4.</strong> Aplicación Chatbot Novedad Tecnológica 3.
 
+### 3. Desarrollando Dashboard Integrado
+
+
+
 
 
 
