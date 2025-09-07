@@ -48,7 +48,7 @@ Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio
         		time.sleep(1)
         		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen1Proyecto.jpg")
         		time.sleep(2)
-        		animated_speech_service.say("El día de hoy les estaré presentando el proyecto realizado por Laura Rodríguez y Diana 					Bernal")
+        		animated_speech_service.say("El día de hoy les estaré presentando el proyecto realizado por Laura Rodríguez y Diana Bernal")
         		time.sleep(2)
 	
         		motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
@@ -78,7 +78,7 @@ Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio
         		time.sleep(2)
         		animated_speech_service.say("Están diseñados para recuperar y reutilizar sus partes mas costosas")
         		time.sleep(2)
-        		animated_speech_service.say("Actualmente, se están desarrollando rockets reutilizables que emplean combustibles derivados 				de biomasa y propulsión eléctrica")
+        		animated_speech_service.say("Actualmente, se están desarrollando rockets reutilizables que emplean combustibles derivados de biomasa y propulsión eléctrica")
         		time.sleep(2)
         		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
         		time.sleep(2)
@@ -95,11 +95,11 @@ Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio
         		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen4Proyecto.png")
         		time.sleep(2)
 
-        		animated_speech_service.say("A esta se le conoce como el comportamiento colectivo observado en sistemas descentralizados 				y autoorganizados")
+        		animated_speech_service.say("A esta se le conoce como el comportamiento colectivo observado en sistemas descentralizados y autoorganizados")
         		time.sleep(2)
-	      		animated_speech_service.say("Sabías que muchas son las empresas que estudian el vuelo de enjambres de drones en la 						actualidad")
+	      		animated_speech_service.say("Sabías que muchas son las empresas que estudian el vuelo de enjambres de drones en la actualidad")
 	      		time.sleep(2)
-	      		animated_speech_service.say("Para puntualizar, la idea central de la inteligencia de enjambre es que la inteligencia 					colectiva puede surgir de una población de agentes simples")
+	      		animated_speech_service.say("Para puntualizar, la idea central de la inteligencia de enjambre es que la inteligencia colectiva puede surgir de una población de agentes 				simples")
 	      		time.sleep(2)
 	      		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
 	      		time.sleep(2)
@@ -117,9 +117,9 @@ Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio
         		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen5Proyecto.png")
         		time.sleep(1)
 
-       			animated_speech_service.say("Esta hace referencia a los algoritmos criptográficos diseñados para protegerse contra un 					ataque de un ordenador cuántico potente.")
+       			animated_speech_service.say("Esta hace referencia a los algoritmos criptográficos diseñados para protegerse contra un ataque de un ordenador cuántico potente.")
         		time.sleep(2)
-        		animated_speech_service.say("A su vez, la encriptación puede proteger los datos digitales tanto en tránsito como en 					reposo.")
+        		animated_speech_service.say("A su vez, la encriptación puede proteger los datos digitales tanto en tránsito como en reposo.")
         		time.sleep(2)
         		animated_speech_service.say("Esta ho ha sido todo por esta sesión.")
         		time.sleep(2)
@@ -163,25 +163,25 @@ De tal forma que, el código resultante para la realización del Chatbot para la
     		else:
         		response=bot.get_response(request)
         		print('Hulk 🏃‍♀️ : Claro')
-    		if request=='¿Podrías brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables?' or request =='Podrías 			brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables'or request=='podrías brindarme información 				acerca de los Sistemas Digitales en Cohetes Reutilizables' :
-       			print('Hulk 🏃‍♀️ : Los Sistemas Digitales son fundamentales para la operación y control de los cohetes reutilizables de 					nueva generación, permitiendo la autonomía, navegación, gestión de combustible y aterrizaje seguro de las naves en 						misiones espaciales frecuentes y sostenibles.')
-        		print('Hulk 🏃‍♀️ : Estos Sistemas Digitales avanzados son la base para la reutilización y el reciclaje de componentes, lo 				que reduce costos, genera menos desechos espaciales y posibilita el acceso a nuevas misiones y exploraciones 							interplanetarias.')
+    		if request=='¿Podrías brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables?' or request =='Podrías brindarme información acerca de los Sistemas 				Digitales en Cohetes Reutilizables'or request=='podrías brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables' :
+       			print('Hulk 🏃‍♀️ : Los Sistemas Digitales son fundamentales para la operación y control de los cohetes reutilizables de nueva generación, permitiendo la autonomía, 						navegación, gestión de combustible y aterrizaje seguro de las naves en misiones espaciales frecuentes y sostenibles.')
+        		print('Hulk 🏃‍♀️ : Estos Sistemas Digitales avanzados son la base para la reutilización y el reciclaje de componentes, lo que reduce costos, genera menos desechos 						espaciales y posibilita el acceso a nuevas misiones y exploraciones interplanetarias.')
         		print('Hulk 🏃‍♀️ : Espero te haya sido de utilidad 😊 ')
         		break
     		else:
         		response=bot.get_response(request)
         		print('Hulk 🏃‍♀️ : Dame unos segundos')    
-    		if request=='¿Me podrías decir el papel de la IA en el vuelo de enjambres?' or request =='Me podrías decir el papel de la IA 			en el vuelo de enjambres'or request =='me podrías decir el papel de la IA en el vuelo de enjambres' :
-       			print('Hulk 🏃‍♀️ : La inteligencia artificial es la columna vertebral de un enjambre de drones. Esta tecnología permite 					que los drones tomen decisiones autónomas, analicen su entorno y se ajusten a las condiciones cambiantes, lo que 						garantiza una actuación coordinada y precisa en todo momento.')
+    		if request=='¿Me podrías decir el papel de la IA en el vuelo de enjambres?' or request =='Me podrías decir el papel de la IA en el vuelo de enjambres'or request =='me 					podrías decir el papel de la IA en el vuelo de enjambres' :
+       			print('Hulk 🏃‍♀️ : La inteligencia artificial es la columna vertebral de un enjambre de drones. Esta tecnología permite que los drones tomen decisiones autónomas, analicen 				su entorno y se ajusten a las condiciones cambiantes, lo que garantiza una actuación coordinada y precisa en todo momento.')
         		print('Hulk 🏃‍♀️ : Espero te haya sido de utilidad 😊 ')
         		break
     		else:
         		response=bot.get_response(request)
        			 print('Hulk 🏃‍♀️ : ...')
-    		if request=='¿Me podrías decir algunas ventajas de la Criptografía Post-Cuántica (PQC)?' or request =='Me podrías decir 				algunas ventajas de la Criptografía Post-Cuántica (PQC)'or request =='me podrías decir algunas ventajas de la Criptografía 				Post-Cuántica (PQC)':
-        		print('Hulk 🏃‍♀️ : Protección contra computadoras cuánticas: Los algoritmos PQC se basan en problemas matemáticos 						diferentes y más difíciles de resolver para las computadoras cuánticas, asegurando que los datos permanezcan seguros 					incluso con el avance de estas tecnologías.')
-        		print('Hulk 🏃‍♀️ : Seguridad a largo plazo: A diferencia de los sistemas actuales como RSA y ECC, la PQC está diseñada 					para ser resistente a los ataques cuánticos, lo que garantiza la confidencialidad y autenticidad de la información a lo 				largo del tiempo. ')
-       			print('Hulk 🏃‍♀️ : Mayor resistencia a ataques clásicos: Los algoritmos PQC también están diseñados para resistir ataques 				de fuerza bruta y otros tipos de ataques clásicos, ofreciendo una capa de seguridad adicional. ')
+    		if request=='¿Me podrías decir algunas ventajas de la Criptografía Post-Cuántica (PQC)?' or request =='Me podrías decir algunas ventajas de la Criptografía Post-Cuántica 				(PQC)'or request =='me podrías decir algunas ventajas de la Criptografía Post-Cuántica (PQC)':
+        		print('Hulk 🏃‍♀️ : Protección contra computadoras cuánticas: Los algoritmos PQC se basan en problemas matemáticos diferentes y más difíciles de resolver para las 						computadoras cuánticas, asegurando que los datos permanezcan seguros incluso con el avance de estas tecnologías.')
+        		print('Hulk 🏃‍♀️ : Seguridad a largo plazo: A diferencia de los sistemas actuales como RSA y ECC, la PQC está diseñada para ser resistente a los ataques cuánticos, lo que 				garantiza la confidencialidad y autenticidad de la información a lo largo del tiempo. ')
+       			print('Hulk 🏃‍♀️ : Mayor resistencia a ataques clásicos: Los algoritmos PQC también están diseñados para resistir ataques de fuerza bruta y otros tipos de ataques 						clásicos, ofreciendo una capa de seguridad adicional. ')
         		print('Hulk 🏃‍♀️ : Espero te haya sido de utilidad 😊 ')
         		break
     		else:
