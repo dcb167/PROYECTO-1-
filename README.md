@@ -190,7 +190,7 @@ De tal forma que, el código resultante para la realización del Chatbot para la
         		break 
 La visualización de como se ven los tres Chatbots para cada novedad tecnológica será mostrada enseguida:
 
-<img width="824" height="183" alt="Chatbot_NT1" src="https://github.com/user-attachments/assets/7bb82b7a-03fa-44a9-b8cd-1b4a462ae4a1" />
+<img width="824" height="183" alt="Chatbot_NT1" src="https://github.com/user-attachments/assets/7bb82b7a-03fa-44a9-b8cd-1b4a462ae4a1" /></br>
 
 <strong>Figura 2.</strong> Aplicación Chatbot Novedad Tecnológica 1.
 
