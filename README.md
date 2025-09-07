@@ -138,6 +138,9 @@ De tal forma que, el video resultante se puede visualizar mediante los siguiente
 + Parte II: https://www.youtube.com/shorts/0MyrbHWdv9I
 
 ### 2. Desarrollando Chatbot Personalizado
+Para la realización de este iteral fue necesario tener en cuenta la instalación de las siguientes librerías en Python:</br>
++ pip install chatterbot
++ 
 
 
 
