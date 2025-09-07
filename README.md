@@ -132,6 +132,10 @@ Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio
 	      		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
 	      		time.sleep(2) 
 	      		a=0
+De tal forma que, el video resultante se puede visualizar mediante los siguientes links de Youtube:
+
++ Parte I: https://youtu.be/gxtcSoR2fdE?si=3BizRtFQ6ibYWJhN
++ Parte II: https://www.youtube.com/shorts/0MyrbHWdv9I
 
 
 
