@@ -198,6 +198,13 @@ La visualización de como se ven los tres Chatbots para cada novedad tecnológic
 
 <strong>Figura 3.</strong> Aplicación Chatbot Novedad Tecnológica 2.
 
+<img width="817" height="257" alt="Chatbot_NT3" src="https://github.com/user-attachments/assets/2464626b-57b9-4e61-8ee8-f4b8acbe1a78" />
+</br>
+
+<strong>Figura 4.</strong> Aplicación Chatbot Novedad Tecnológica 3.
+
+
+
 
 
 
