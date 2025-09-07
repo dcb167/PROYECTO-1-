@@ -148,6 +148,8 @@ Ya realizado el paso anterior, es necesario importarlas para ello se realizó lo
 
 <strong>Figura 1.</strong> Importación de las Librerías en Python.
 
+De tal forma que, el código resultante para la realización del Chatbot fue el siguiente:</br>
+
 
 
 
