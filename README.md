@@ -205,6 +205,21 @@ La visualización de como se ven los tres Chatbots para cada novedad tecnológic
 
 ### 3. Desarrollando Dashboard Integrado
 
+Para realizar este iteral se tuvo en cuenta una tecnología denominada "Streamlit". Al igual que en el item anterior, fue necesario la instalación de ciertas librerías en el terminal. Las cuales fueron: 
+
+<img width="163" height="22" alt="image" src="https://github.com/user-attachments/assets/7e45755d-2c70-4ea6-ae26-2d1ba1f55598" /></br>
+
+<strong>Figura 5.</strong> Instalación de la Librería Streamlit.
+
+<img width="144" height="15" alt="image" src="https://github.com/user-attachments/assets/f97229c6-a41e-4ac3-8f3c-f8f5342ad39a" /></br>
+
+<strong>Figura 6.</strong> Instalación de la Librería Pillow.
+
+
+
+
+
+
 
 
 
