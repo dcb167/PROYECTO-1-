@@ -1,7 +1,7 @@
 # PROYECTO 1 PRIMER CORTE
 ## Elaborado por: Laura Rodriguez y Diana Bernal
 
-### Interactuando con Pepper
+### 1. Interactuando con Pepper
 Para realizar una presentación con Pepper. Se aplicaron conceptos del Laboratorio II. En el cual, se explicó como fue el proceso de conexión por medio de la terminal de Ubuntu. En este caso, Pepper tenía un número de IP distinto el cuál era: </br>
 + 192.168.0.106
 
