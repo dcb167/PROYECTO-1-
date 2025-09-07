@@ -143,6 +143,7 @@ Para la realización de este iteral fue necesario tener en cuenta la instalació
 + pip install chatterbot_corpus
   
 Ya realizado el paso anterior, es necesario importarlas para ello se realizó lo siguiente:</br>
+
 <img width="355" height="40" alt="image" src="https://github.com/user-attachments/assets/57c0bcc9-5e80-405c-a73e-66ae6dfe18ff" />
 
 
