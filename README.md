@@ -148,7 +148,47 @@ Ya realizado el paso anterior, es necesario importarlas para ello se realizó lo
 
 <strong>Figura 1.</strong> Importación de las Librerías en Python.
 
-De tal forma que, el código resultante para la realización del Chatbot fue el siguiente:</br>
+De tal forma que, el código resultante para la realización del Chatbot para las tres novedades tecnológicas fue el siguiente:</br>
+
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+
+bot=ChatBot('Hulk')
+name=input("Ingresa tu nombre: ")
+print("¡Bienvenido a Hulk Server!🏃‍♀️ ¿Cómo puedo ayudarte?")
+while True:
+    request=input(name+':')
+    if request=='Chao' or request =='chao'or request ==' Chao':
+        print('Hulk 🏃‍♀️ : Chao')
+        break
+    else:
+        response=bot.get_response(request)
+        print('Hulk 🏃‍♀️ : Claro')
+    if request=='¿Podrías brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables?' or request =='Podrías brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables'or request=='podrías brindarme información acerca de los Sistemas Digitales en Cohetes Reutilizables' :
+        print('Hulk 🏃‍♀️ : Los Sistemas Digitales son fundamentales para la operación y control de los cohetes reutilizables de nueva generación, permitiendo la autonomía, navegación, gestión de combustible y aterrizaje seguro de las naves en misiones espaciales frecuentes y sostenibles.')
+        print('Hulk 🏃‍♀️ : Estos Sistemas Digitales avanzados son la base para la reutilización y el reciclaje de componentes, lo que reduce costos, genera menos desechos espaciales y posibilita el acceso a nuevas misiones y exploraciones interplanetarias.')
+        print('Hulk 🏃‍♀️ : Espero te haya sido de utilidad 😊 ')
+        break
+    else:
+        response=bot.get_response(request)
+        print('Hulk 🏃‍♀️ : Dame unos segundos')    
+    if request=='¿Me podrías decir el papel de la IA en el vuelo de enjambres?' or request =='Me podrías decir el papel de la IA en el vuelo de enjambres'or request =='me podrías decir el papel de la IA en el vuelo de enjambres' :
+        print('Hulk 🏃‍♀️ : La inteligencia artificial es la columna vertebral de un enjambre de drones. Esta tecnología permite que los drones tomen decisiones autónomas, analicen su entorno y se ajusten a las condiciones cambiantes, lo que garantiza una actuación coordinada y precisa en todo momento.')
+        print('Hulk 🏃‍♀️ : Espero te haya sido de utilidad 😊 ')
+        break
+    else:
+        response=bot.get_response(request)
+        print('Hulk 🏃‍♀️ : ...')
+    if request=='¿Me podrías decir algunas ventajas de la Criptografía Post-Cuántica (PQC)?' or request =='Me podrías decir algunas ventajas de la Criptografía Post-Cuántica (PQC)'or request =='me podrías decir algunas ventajas de la Criptografía Post-Cuántica (PQC)':
+        print('Hulk 🏃‍♀️ : Protección contra computadoras cuánticas: Los algoritmos PQC se basan en problemas matemáticos diferentes y más difíciles de resolver para las computadoras cuánticas, asegurando que los datos permanezcan seguros incluso con el avance de estas tecnologías.')
+        print('Hulk 🏃‍♀️ : Seguridad a largo plazo: A diferencia de los sistemas actuales como RSA y ECC, la PQC está diseñada para ser resistente a los ataques cuánticos, lo que garantiza la confidencialidad y autenticidad de la información a lo largo del tiempo. ')
+        print('Hulk 🏃‍♀️ : Mayor resistencia a ataques clásicos: Los algoritmos PQC también están diseñados para resistir ataques de fuerza bruta y otros tipos de ataques clásicos, ofreciendo una capa de seguridad adicional. ')
+        print('Hulk 🏃‍♀️ : Espero te haya sido de utilidad 😊 ')
+        break
+    else:
+        response=bot.get_response(request)
+        print('Hulk 🏃‍♀️ : No encuentro respuesta a tu pregunta😞')
+        break 
 
 
 
