@@ -146,7 +146,7 @@ Ya realizado el paso anterior, es necesario importarlas para ello se realizó lo
 
 <img width="355" height="40" alt="image" src="https://github.com/user-attachments/assets/57c0bcc9-5e80-405c-a73e-66ae6dfe18ff" />
 
-
+<strong>Figura 1.</strong> Importación de las Librerías en Python.
 
 
 
