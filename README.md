@@ -4,10 +4,10 @@
 ### Interactuando con Pepper
 Para realizar una presentación con Pepper. Se aplicaron conceptos del Laboratorio II. En el cual, se explicó como fue el proceso de conexión por medio de la terminal de Ubuntu. En este caso, Pepper tenía un número de IP distinto el cuál era: </br>
 + 192.168.0.106</br>
-Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio del terminal y a su vez, para establecer la conexión en el código de Python. De tal forma que, aplicando los conceptos del Laborario II el código resultante fue el siguiente:
+Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio del terminal y a su vez, para establecer la conexión en el código de Python. De tal forma que, aplicando los conceptos del Laborario II el código resultante fue el siguiente:</br>
 
-	import qi
-	import argparse
+		import qi
+		import argparse
 	import sys
 	import almath
 	import math
