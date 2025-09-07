@@ -7,7 +7,6 @@ Para realizar una presentación con Pepper. Se aplicaron conceptos del Laborator
 
 Eso fue necesario tenerlo en cuenta a la hora de realizar la conexión por medio del terminal y a su vez, para establecer la conexión en el código de Python. De tal forma que, aplicando los conceptos del Laborario II el código resultante fue el siguiente:</br>
 
-
 		import qi
 		import argparse
 		import sys
@@ -150,17 +149,17 @@ Ya realizado el paso anterior, es necesario importarlas para ello se realizó lo
 
 De tal forma que, el código resultante para la realización del Chatbot para las tres novedades tecnológicas fue el siguiente:</br>
 
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
+		from chatterbot import ChatBot
+		from chatterbot.trainers import ListTrainer
 
-bot=ChatBot('Hulk')
-name=input("Ingresa tu nombre: ")
-print("¡Bienvenido a Hulk Server!🏃‍♀️ ¿Cómo puedo ayudarte?")
-while True:
-    request=input(name+':')
-    if request=='Chao' or request =='chao'or request ==' Chao':
-        print('Hulk 🏃‍♀️ : Chao')
-        break
+		bot=ChatBot('Hulk')
+		name=input("Ingresa tu nombre: ")
+		print("¡Bienvenido a Hulk Server!🏃‍♀️ ¿Cómo puedo ayudarte?")
+		while True:
+    		request=input(name+':')
+    		if request=='Chao' or request =='chao'or request ==' Chao':
+       			print('Hulk 🏃‍♀️ : Chao')
+        		break
     else:
         response=bot.get_response(request)
         print('Hulk 🏃‍♀️ : Claro')
