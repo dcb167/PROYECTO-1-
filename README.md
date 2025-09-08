@@ -215,7 +215,79 @@ Para realizar este iteral se tuvo en cuenta una tecnología denominada "Streamli
 
 <strong>Figura 6.</strong> Instalación de la Librería Pillow.
 
-De tal forma que, la integración de la Presentación de Pepper y el Chatbot mediante la tecnología Streamlit resultó en el siguiente código:
+De tal forma que, la integración de la Presentación de Pepper y el Chatbot mediante la tecnología Streamlit resultó en el siguiente código:</br>
+
+		import streamlit as st
+		from PIL import Image
+
+		st.set_page_config(page_title="PROYECTO PRIMER CORTE",page_icon="🤖",layout="wide")
+
+#PRESENTACIÓN CON PEPPER
+
+with st.container():
+    st.header ("Bienvenidos a la presentación del Proyecto I👋")
+    st.title("1. Presentación con Pepper")
+    st.write("En la siguiente sección será posible evidenciar como fue el proceso de realización de la Presentación de Pepper empleando el terminal de Ubuntu. A continuación, será posible evidenciar el video final de dicha presentación.")
+    st.write("[Video Pepper Parte I>](https://youtu.be/gxtcSoR2fdE?si=3BizRtFQ6ibYWJhN)")
+    st.write("[Video Pepper Parte II>](https://www.youtube.com/shorts/0MyrbHWdv9I)")
+
+with st.container():
+    st.write("---")
+    text_column,animation_column= st.columns(2)
+    with text_column:
+        st.header("1.1 Descripción del proceso con Pepper 🤖")
+        st.write("Básicamente el proceso se pudo realizar mediante el uso de tres servicios importantes. Los cuales fueron: Motion, Tablet, Video Service."
+        )
+
+#CHATBOT
+    n_t = st.slider('Selecciona una Novedad Tecnológica', 1, 3)
+    st.write(f'Visualiza la NT: {n_t}')
+    with st.container():
+        st.write("---")
+        st.header("2. Chatbot⚙️")
+        st.write("##")
+        image_column,text_column =st.columns((1,2))
+        with image_column:
+            image=Image.open("C:/Users/CATA/Downloads/Chatbot_NT1.png")
+            st.image(image,use_column_width=True)
+        with text_column:
+            st.subheader("2.1 Implementación del Chatbot NT1")
+            st.write(
+                """
+                Mediante el uso de algunas librerías fue posible realizar un Chatbot en Python. El resultado puede
+                visualizarse enseguida para la primera Novedad Tecnológica.
+                """
+            )
+        with st.container():
+            st.write("---")
+            st.write("##")
+            image_column,text_column =st.columns((1,2))
+        with image_column:
+            image=Image.open("C:/Users/CATA/Downloads/Chatbot_NT2.png")
+            st.image(image,use_column_width=True)
+        with text_column:
+            st.subheader("2.2 Implementación del Chatbot NT2")
+            st.write(
+                """
+                Mediante el uso de algunas librerías fue posible realizar un Chatbot en Python. El resultado puede
+                visualizarse enseguida para la segunda Novedad Tecnológica.
+                """
+            )
+        with st.container():
+            st.write("---")
+            st.write("##")
+            image_column,text_column =st.columns((1,2))
+        with image_column:
+            image=Image.open("C:/Users/CATA/Downloads/Chatbot_NT3.png")
+            st.image(image,use_column_width=True)
+        with text_column:
+            st.subheader("2.3 Implementación del Chatbot NT3")
+            st.write(
+                """
+                Mediante el uso de algunas librerías fue posible realizar un Chatbot en Python. El resultado puede
+                visualizarse enseguida para la tercera Novedad Tecnológica.
+                """
+            )
 
 
 
