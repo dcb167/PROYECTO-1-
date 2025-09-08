@@ -215,6 +215,10 @@ Para realizar este iteral se tuvo en cuenta una tecnología denominada "Streamli
 
 <strong>Figura 6.</strong> Instalación de la Librería Pillow.
 
+De tal forma que, la integración de la Presentación de Pepper y el Chatbot mediante la tecnología Streamlit resultó en el siguiente código:
+
+
+
 
 
 
